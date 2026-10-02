@@ -1,0 +1,25 @@
+#ifndef NFSMW_FRAME_H
+#define NFSMW_FRAME_H
+
+#define NFSMW_FRAME_PATH "/tmp/samurai2.frame"
+#define NFSMW_FRAME_MAGIC 0x4e465342u
+#define NFSMW_FRAME_MAX_W 1280
+#define NFSMW_FRAME_MAX_H 720
+#define NFSMW_FRAME_HDR 64
+#define NFSMW_FRAME_FILE_SIZE \
+    (NFSMW_FRAME_HDR + (size_t)NFSMW_FRAME_MAX_W * (size_t)NFSMW_FRAME_MAX_H * 4u)
+
+#define NFSMW_HDR_MAGIC 0
+#define NFSMW_HDR_SEQ 1
+#define NFSMW_HDR_W 2
+#define NFSMW_HDR_H 3
+#define NFSMW_HDR_READY 4
+#define NFSMW_HDR_BUTTONS 5
+#define NFSMW_HDR_AXIS0 6
+#define NFSMW_HDR_PAD_SEQ 12
+#define NFSMW_HDR_CURSOR_X 13
+#define NFSMW_HDR_CURSOR_Y 14
+#define NFSMW_HDR_CURSOR_ON 15
+#define NFSMW_HDR_STICK_BIAS 16
+
+#endif

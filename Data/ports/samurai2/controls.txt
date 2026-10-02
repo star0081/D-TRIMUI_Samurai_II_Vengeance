@@ -1,0 +1,42 @@
+# Control map for Shadowgun. Edit and restart the game — no rebuild needed.
+#
+# slotN = source
+#   Feeds the axis the game shows as "Axis N".
+#   Sources: lx ly (left stick), rx ry (right stick), lt rt (L2/R2 triggers),
+#            btn0..btn14 (held button as full axis deflection), none.
+#   Leading "-" inverts the value.
+#
+# slotNneg = source
+#   Second source that pulls the same axis negative. Used when the profile
+#   binds two actions to "Axis N +" and "Axis N -".
+#
+# buttonN = key
+#   SDL button N reports this Android keycode.
+#   Buttons: 0=A 1=B 2=X 3=Y 4=Select 6=Start 7=L3 8=R3
+#            9=L1 10=R1 11=Up 12=Down 13=Left 14=Right
+#   Keys: a b x y l1 r1 l2 r2 start select escape back thumbl thumbr
+#         up down left right none
+#   Select opens the pause menu (the Xbox profile listens for Escape).
+#
+# l2key / r2key = key
+#   Extra keycode fired when the analog trigger crosses the press threshold.
+#
+# Known binds (BUILD 76):
+#   Axis 1/2 move, Axis 3/4 look, Axis 6+ fire.
+#   Axis 5- and L2 key are NOT aim (tested).
+#   Remaining candidates: Axis 5+ (reload via R1=btn10) and Button11/R3 (aim via L2).
+
+slot1 = lx
+slot2 = ly
+slot3 = rx
+slot4 = ry
+slot5 = btn10
+slot5neg = lt
+slot6 = rt
+slot7 = rx
+slot8 = ry
+
+button4 = escape
+button10 = l2
+l2key = thumbr
+r2key = r2

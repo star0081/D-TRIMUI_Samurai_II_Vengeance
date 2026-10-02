@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+  <game>
+    <path>./Samurai II.sh</path>
+    <name>Samurai II: Vengeance</name>
+    <desc>Port of Madfinger's Samurai II: Vengeance 1.1.4 (Unity 4.6.3p2 Mono). Original game files are required.</desc>
+    <releasedate>20100901T000000</releasedate>
+    <developer>Madfinger Games</developer>
+    <publisher>Madfinger Games</publisher>
+    <genre>Action</genre>
+  </game>
+</gameList>

@@ -1,0 +1,26 @@
+# Madfinger game files — never commit
+*.apk
+*.obb
+*.dll
+*.log
+*.so.bak
+*.jpg
+
+/backup/
+/_comic_work/
+
+Data/ports/samurai2/gamedata/**
+!Data/ports/samurai2/gamedata/README.txt
+Data/ports/samurai2/gamefiles/
+Data/ports/samurai2/assets/
+Data/ports/samurai2/logs/
+Data/ports/samurai2/cache/
+Data/ports/samurai2/files/
+Data/ports/samurai2/Android/
+Data/ports/samurai2/prefs.txt
+Data/ports/samurai2/save-after-bridge/
+Data/ports/samurai2/host-libs/libLLVM*
+Data/ports/samurai2/host-libs/dri/
+**/.DS_Store
+*.tmp
+__pycache__/

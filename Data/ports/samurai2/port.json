@@ -1,0 +1,42 @@
+{
+  "version": 4,
+  "name": "samurai2.zip",
+  "items": [
+    "Samurai II.sh",
+    "samurai2"
+  ],
+  "items_opt": [],
+  "attr": {
+    "title": "Samurai II: Vengeance",
+    "porter": [
+      "star0081 (TrimUI Smart Pro)"
+    ],
+    "desc": "Unity 4.6.3p2 Mono Android port of Samurai II: Vengeance 1.1.4 for TrimUI Smart Pro 1.1.1 PortMaster. Original Madfinger game files are not included.",
+    "desc_md": null,
+    "inst": "Copy Samurai II Vengeance 1.1.4 APK into Data/ports/samurai2/gamedata as samurai2-1.1.4.apk, run setup.ps1 on a PC, then launch.",
+    "inst_md": null,
+    "genres": [
+      "action"
+    ],
+    "image": {},
+    "rtr": false,
+    "exp": true,
+    "runtime": null,
+    "store": [],
+    "availability": "paid",
+    "reqs": [
+      "opengl",
+      "analog_2"
+    ],
+    "arch": [
+      "aarch64",
+      "armhf"
+    ],
+    "min_glibc": ""
+  },
+  "status": {
+    "source": "https://github.com/star0081",
+    "md5": null,
+    "status": "WIP"
+  }
+}
