@@ -17,6 +17,7 @@
 - Первый рычаг в начале уровня срабатывает сам, когда персонаж подходит к нему ближе 3 метров, и персонаж поднимается вместе с мостом. Остальные рычаги игра обрабатывает сама.
 
 ## Установка
+https://4pda.to/forum/index.php?showtopic=1080050&view=findpost&p=145342312
 
 1. Свой APK 1.1.4 положить как `Data/ports/samurai2/gamedata/samurai2-1.1.4.apk` (см. `gamedata/README.txt`).
 2. На ПК: `powershell -File Data/ports/samurai2/setup.ps1` — достанет `libmain.so`, `libunity.so`, `libmono.so` и `assets/`.
